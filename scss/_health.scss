@@ -1,0 +1,32 @@
+.health {
+
+    &__container {
+    }
+
+    &__body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__title {
+        margin-bottom: 48px;
+    }
+
+    &__text {
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 32px;
+    }
+
+    &__image {
+        position: absolute;
+        bottom: 200px;
+        width: 180px;
+        height: 180px;
+        background: url(/source/health.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}

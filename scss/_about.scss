@@ -1,0 +1,47 @@
+.about {
+
+    &__container {
+    }
+
+    &__body {
+        margin-bottom: 300px;
+    }
+
+    &__heading {
+        margin-bottom: 60px;
+        margin-top: 150px;
+        font-weight: 400;
+        font-size: 64px;
+        line-height: 81px;
+        font-family: $font-s;
+    }
+
+    &__item-content {
+
+    }
+
+    &__item-wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 40px;
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    &__item {
+        width: 740px;
+        height: 415px;
+        border-radius: 5px;
+        background: #F7F7FA;
+        box-shadow: 2px 12px 36px rgba(0, 0, 0, 0.01);
+        padding-left: 50px;
+        padding-top: 60px;
+    }
+
+    &__item-text {
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 55px;
+    }
+}

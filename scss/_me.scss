@@ -1,0 +1,44 @@
+.me {
+
+    &__container {
+    }
+
+    &__body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__heading {
+        font-size: 59px;
+        margin-bottom: 37px;
+    }
+
+    &__date {
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 32px;
+        margin-bottom: 25px;
+    }
+
+    &__text {
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 32px;
+        margin-bottom: 25px;
+        &:last-child {
+            margin-bottom: 0px;
+        }
+    }
+
+    &__image {
+        position: absolute;
+        bottom: 20px;
+        width: 300px;
+        height: 300px;
+        background: url(/source/me.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+}

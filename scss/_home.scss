@@ -1,0 +1,37 @@
+.home {
+    min-height: 100vh;
+    * {
+        color: $main-color;
+    }
+    &__container {
+    }
+
+    &__body {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        justify-content: center;   
+    }
+
+    &__heading {
+        max-width: 650px;
+        font-weight: 400;
+        font-size: 64px;
+        line-height: 81px;
+        font-family: $font-s;
+        margin-right: 290px;
+        span {
+            color: $primary-color;
+        }
+    }
+
+    &__image {
+        margin-top: 50px;
+        width: 581.1px;
+        height: 800px;
+        background: url(/source/main.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-right: auto;
+    }
+}

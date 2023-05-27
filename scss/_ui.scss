@@ -1,0 +1,11 @@
+$text: #040617;
+$primary-color: #FF5500;
+$main-color: #EDEDF1;
+$transition: all .5s ease;
+$font:'Manrope', sans-serif;
+$font-s: 'Days One Regular';
+$bg: radial-gradient(92.51% 259.21% at 57.32% 73.75%, #060606 0%, #212121 100%);
+
+.bg {
+    background: $bg;
+}
